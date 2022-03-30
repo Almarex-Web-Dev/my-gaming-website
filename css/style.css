@@ -1,0 +1,486 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background: #1a0327;
+    font-family: 'Poppins', sans-serif;
+    height: 350vh;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/b.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+header{
+    width: 100%;
+    height: 10vh;
+    background:rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 300px;
+    height: 10vh;
+    background: #550381;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    clip-path: polygon(0 0, 100% 0, 64% 100%, 0% 100%);
+    padding: 10px;
+    line-height: 1.3rem;
+}
+.logo p{
+    width: 130px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.logo .fas{
+    font-size: 50px;
+}
+ul.navbar{
+    display: flex;
+    list-style: none;
+}
+ul.navbar li{
+    width: 120px;
+}
+ul.navbar li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+ul.navbar li a.active{
+    color: #FEC53A;
+}
+ul.navbar li a:hover:not(.active){
+    color: #FEC53A;
+}
+#btn{
+    width: 250px;
+    height: 10vh;
+    background: #FEC53A;
+    color: #000;
+    outline: none;
+    border: none;
+    clip-path: polygon(35% 0, 100% 0, 100% 100%, 0% 100%);
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 40px;
+}
+#btn .fas{
+    margin-right: 10px;
+}
+
+/* Content desc starts here */
+.content-wrapper{
+    width: 80%;
+    min-height: 80vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+/* .content-desc{
+
+} */
+
+.content-desc h1{
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+.content-desc p{
+    width: 550px;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    margin-bottom: 10px;
+}
+.content-desc span{
+    color: #FEC53A;
+}
+#btn2{
+    width: 350px;
+    height: 10vh;
+    padding-left: 20px;
+    outline: none;
+    border: none;
+    background: #FEC53A;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 15px;
+    clip-path: polygon(0 0, 74% 0, 100% 100%, 0% 100%);
+    border-radius: 20px;
+    text-align: left;
+}
+.rakuto{
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(rgba(38, 2, 39, 0.849),rgb(204, 115, 14));
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.rakuto::before{
+    content: '';
+    width: 160px;
+    height: 160px;
+    background: url(../images/cube.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 10px;
+    left: 200px;
+}
+.rakuto::after{
+    content: '';
+    width: 400px;
+    height: 400px;
+    background: url(../images/rakuto.png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    bottom: 0px;
+    left: -150px;
+}
+.logo-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+}
+.logo-section .fas{
+    font-size: 6rem;
+    color: #FEC53A;
+}
+.logo-section h1{
+    width: 250px;
+    font-size: 2rem;
+    color: #FEC53A;
+    margin-left: 10px;
+}
+/* Section one starts here */
+
+.section-1{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.767),rgba(0, 0, 0, 0.712)),
+    url(../images/fortnit.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+.section-1-wrapper{
+    width: 70%;
+    margin: auto;
+}
+.section-1 h1{
+    width: 500px;
+    color: #FEC53A;
+    font-size: 1.5rem;
+    position: relative;
+    font-weight: 400;
+}
+.section-1-img{
+    display: flex;
+}
+.section-1-img .img{
+    width: 100px;
+    height: 130px;
+    background: url(../images/jumanji.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.section-1-img .img-2{
+    background: url(../images/nba.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.section-1-img  .img-3{
+    background: url(../images/battlefield.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.section-1-img  .img-4{
+    background: url(../images/warxone.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.section-1-img  .img-5{
+    background: url(../images/craft.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.section-1-img  .img-6{
+    background: url(../images/fortnite.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.img:hover{
+    transform: translateY(-10px);
+}
+
+/* Section 3 starts here */
+.game-categories{
+    width: 70%;
+    margin: 50px auto;
+    position: relative;
+}
+.game-categories h1{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #FEC53A;
+}
+.game-wrapper{
+    display: flex;
+}
+.gw{
+    width: 120px;
+    height: 120px;
+    background: url(../images/asphalt8.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 20px 15px 0 0;
+    border-radius: 10px;
+}
+.gw:hover{
+    transform: translateY(-10px);
+}
+.left{
+    position: relative;
+    right: -140px;
+}
+
+.gw-1{
+    background: url(../images/pes22.webp);
+    background-size: cover;
+    background-position: center;
+}
+.gw-2{
+    background: url(../images/carrace.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.gw-3{
+    background: url(../images/Anpar.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.gw-4{
+    background: url(../images/warxone.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.gw-5{
+    background: url(../images/wras.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.gw-6{
+    background: url(../images/battle.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.gw-7{
+    background: url(../images/download.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.gw-8{
+    background: url(../images/battlefield.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.gw-9{
+    background: url(../images/craft.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.section-2{
+    width: 100%;
+    height: 50vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.767),rgba(0, 0, 0, 0.712)),
+    url(../images/flame.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.section-2 h1{
+    font-size: 2rem;
+    color: #fff;
+    margin: 20px 0;
+}
+.players{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.p-image{
+    width: 200px;
+    height: 200px;
+    background: url(../images/vaklish.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    position: relative;
+}
+.p-image-1::after{
+    content: 'VS';
+    position: absolute;
+    right: -35px;
+    bottom: 0;
+    font-size: 2rem;
+    color: #FEC53A;
+}
+.players span{
+    font-size: 1.5rem;
+    color: #FEC53A;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.stars{
+    color: #FEC53A;
+}
+.p-image-2{
+    background: url(../images/rakuto.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.p-image-2{
+    background: url(../images/rakuto.png);
+    background-size: cover;
+    background-position: center;
+}
+.p-image-3::after{
+    content: 'VS';
+    position: absolute;
+    right: -35px;
+    bottom: 0;
+    font-size: 2rem;
+    color: #FEC53A;
+}
+.p-image-4{
+    background: url(../images/rakuto.png);
+    background-size: cover;
+    background-position: center;
+}
+/* section 3 starts here */
+
+.section-3{
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/controller.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.section-3 h1{
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+}
+
+.section-3-wrapper{
+    display: flex;
+    min-height: 70vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.feedback{
+    width: 250px;
+    height: 300px;
+    background: url(../images/feedback.jpg);
+    background-position: center;
+    background-size: cover;
+ 
+}
+.feedback-desc{
+    width: 300px;
+    height: 300px;
+    background: rgba(0, 0, 0, 0.767);
+    padding: 10px;
+    color: #fff;
+    margin-right: 10px;
+}
+.feedback-desc .far{
+    color: #FEC53A;
+    font-size: 30px;
+}
+.f-img-2{
+    background: url(../images/image9.jpg);
+    background-position: center;
+    background-size: cover;
+}
+/* FOoter section */
+footer{
+    width: 100%;
+    height: 55vh;
+    background: #282828;
+    display: flex;
+    align-items: center;
+    
+}
+.footer-body{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-logo{
+    height: 12vh;
+    background-color: #FEC53A;
+    color: #000;
+    line-height: 1.7rem;
+}
+ul h3{
+    color: #fff;
+    font-weight: 450;
+}
+ul li{
+    list-style: none;
+    line-height: 2.5rem;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+ul li a .fab{
+    font-size: 1.2rem;
+    color: #FEC53A;
+    margin-right: 15px;
+}
+ul li a:hover{
+    color: #FEC53A;
+}
+.footer-bottom{
+    width: 100%;
+    height: 7vh;
+    background: #1B1919;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.875rem;
+}
+.footer-bottom span{
+    color: #FEC53A;
+    font-weight: bold;
+}
