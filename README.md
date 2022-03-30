@@ -3,7 +3,7 @@
   
 <p> Try to pratice and achieve the same thing. if you get stuck in anyway, the source code is already provided. you could clone it and go through it if needed. </p>
 
-# How to Incorparate Font awesome Icon locally on your Computer 
+# How to Incorporate Font awesome Icon locally on your Computer 
 
 1. grab the Webfonts FOlder and place it in your root project file
 2. copy the all.min.css file and place it your head tag and link it up by using the <link> tag and reference it with all.min.css 
